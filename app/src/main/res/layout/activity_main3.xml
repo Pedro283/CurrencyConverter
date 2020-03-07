@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="15dp"
+    android:background="#9E95D6">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:padding="1dp"
+        android:src="@drawable/bitdol"/>
+
+    <TextView
+        android:layout_width="401dp"
+        android:layout_height="50dp"
+        android:text=" From : 1 Bitcoin"
+        android:textAlignment="center"
+        android:textColor="#1128AC"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:layout_width="396dp"
+        android:layout_height="50dp"
+        android:text=" To --> :"
+        android:textColor="#1128AC"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+    <com.scrounger.countrycurrencypicker.library.Buttons.CountryCurrencyButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:country_code="US"
+        app:show_currency="true" />
+
+    <Button
+        android:layout_width="146dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#1128AC"
+        android:text="Converter"
+        android:textAllCaps="false"
+        android:textColor="#EEF0EE"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <TextView
+        android:layout_width="396dp"
+        android:layout_height="50dp"
+        android:text="01 BTC = 9118,85 $"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
+
+</LinearLayout>
